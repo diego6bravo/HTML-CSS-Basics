@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #bebebe;
+    font-size: 17px;
+}
+
+label {
+    display: block;
+    margin-bottom: 25px;
+    color: #7e7d7d;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.seleccion-radio, .seleccion-checkbox {
+    margin-bottom: 20px;
+}
+
+.seleccion-radio input[type="radio"], .seleccion-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.seleccion-radio label, .seleccion-checkbox label {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.cancelar {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+button.enviar {
+    background-color: #4a5bdc;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}

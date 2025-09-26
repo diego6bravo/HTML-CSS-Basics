@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #171717;
+  --background-color: #f2f2f2;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background-color: var(--background-color);
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style: none;
+  padding: 0;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.calendario {
+  display: grid;
+  background-color: var(--primary-color);
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+
+  & .item {
+    display: grid;
+    place-items: start end;
+    padding: 0.25rem;
+    width: 100%;
+    background-color: brown;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--background-color);
+    counter-increment: number 1;
+
+    &::after {
+      content: counter(number);
+    }
+
+    &:nth-child(1) {
+      grid-column: 7/8;
+    }
+
+    &:nth-child(3) {
+      background-color: cornflowerblue;
+    }
+
+    &:nth-child(10) {
+      background-color: cornflowerblue;
+    }
+  }
+}

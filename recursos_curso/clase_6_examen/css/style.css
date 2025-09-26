@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  text-decoration: none;
+  color: inherit;
+  line-height: 1.6;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+.seccion-cuerpo {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.boton {
+  background: #96bb7c;
+  width: 193px;
+  height: 52px;
+  padding: 15px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  display: flex;
+  border-bottom: 2px solid #f4f4f9;
+  padding-bottom: 20px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+header img {
+  padding: 0 0 20px 0;
+}
+
+.cabecera {
+  display: flex;
+  border-bottom: 2px solid #f4f4f9;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #f4f4f9;
+  padding-bottom: 5px;
+}
+
+.habilidades li {
+  background: #f4f4f9;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: #fafafa;
+  width: auto;
+  height: 74px;
+  top: 1759px;
+  gap: 20px;
+  align-items: center;
+}
+
+footer h6 {
+  font-size: 10px;
+  text-align: center;
+}
+
+#social-icons {
+  letter-spacing: 8px;
+}
+
+.fa-brands {
+  color: #96bb7c;
+  font-size: 24px;
+}

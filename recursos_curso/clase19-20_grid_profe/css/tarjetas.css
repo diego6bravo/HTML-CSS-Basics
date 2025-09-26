@@ -1,0 +1,27 @@
+/* Tarjetas */
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  gap: 16px;
+}
+
+.poster img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+/* Media Query
+@media (width > 300px) {
+  .tarjetas {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (width > 600px) {
+  .tarjetas {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+} */

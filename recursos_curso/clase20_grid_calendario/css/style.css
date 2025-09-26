@@ -1,0 +1,46 @@
+* {http://127.0.0.1:5500/clase20_grid_calendario/index.html
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    width: 80%;
+    max-width: 800px;
+    background-color: #ddd;
+}
+
+.dia, .fecha, .festivo {
+    padding: 10px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.dia {
+    background-color: #bb9fd1;
+    color: white;
+    font-weight: bold;
+}
+
+.fecha {
+    background-color: #fff;
+    color: #795892;
+}
+
+.festivo {
+    background-color: #ffdddd;
+    color: #d37b80;
+    font-weight: bold;
+}

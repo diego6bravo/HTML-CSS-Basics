@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <pma:structure_schemas>
+<pma:database name="actualiza_ent" collation="latin1_general_ci" charset="latin1">
+           </pma:database>
+    </pma:structure_schemas>
+    <database name="actualiza_ent">
+
+<table name="odln3"><column name="DocNum">35464</column></table>
+
+        </database>
+</pma_xml_export>

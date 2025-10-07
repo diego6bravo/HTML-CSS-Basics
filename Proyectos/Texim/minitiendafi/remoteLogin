@@ -1,0 +1,194 @@
+
+
+
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="renderer" content="webkit" />
+<title>ID de HUAWEI: Inicio de sesión</title>
+<!-- CSS -->
+<link href="https://id5.cloud.huawei.com/CAS/up/idmw_rss_66/css/portal/common_rss/css/common.css?cas20191101" rel="stylesheet" type="text/css">
+
+<link href="https://id5.cloud.huawei.com/CAS/up/idmw_rss_66/css/portal/vmall_rss/loginEMUIV6/common.css?cas20191101" rel="stylesheet" type="text/css">
+
+
+
+
+
+<!-- ICON -->
+<link href="https://id5.cloud.huawei.com/CAS/up/idmw_rss_66/logos/icons/huawei.ico" type="image/x-icon" rel="shortcut icon" /> 
+
+
+<!-- CSS -->
+<link href="https://id5.cloud.huawei.com/CAS/up/idmw_rss_66/css/portal/sdk/common.css?cas20191101" rel="stylesheet" type="text/css">
+
+
+<!-- JS -->
+
+<script type="text/javascript">var pageToken = "bfadebed1048a520e68e757708bd2beb1ecd79a97195d8014fabd83767da8437";var casPageFlowID = "cf1aaaa1-84c7-4157-8308-65edf59ec778";var isOpenKPIStat = "true";var isOpenCasPageStat = "true";</script><script type="text/javascript">var localHttps="https://id5.cloud.huawei.com/CAS";var currentSiteID="5";var webAppName="CAS";var localHttps_AMW="https://id5.cloud.huawei.com/AMW";var languageCode="es-us";var resourse_js_img_css_webUrl="https://id5.cloud.huawei.com/CAS/up/idmw_rss_66";var jsSDKReportDomain="null";var cookieBannerExpires="30";var cookieUrl="https://id5.cloud.huawei.com/AMW/portal/agreements/cookie.html?reqClientType=27&loginChannel=27000000&countryCode=co&loginUrl=https%3A%2F%2Fid5.cloud.huawei.com%2FCAS%2Fportal%2Flogin.html&lang=es-us&themeName=red&service=https%3A%2F%2Fapi-sg.c.huawei.com%2Fcuepf%2Flogin%2Fcloudplatforms%3FsiteURL%3Dhttps%253A%252F%252Fapi-sg.c.huawei.com%252Fcuepf%252Fservices%252Fservice%252Fextuser%252Finfo&version=hkservice";var isIE10BelowUpdate="true";var isTbTc="false";var isOpenNewDelUser="true";var brandID=0;var carrierName="HUAWEI";var carrierNameAccount="ID de HUAWEI";</script>
+<script src="https://id5.cloud.huawei.com/CAS/up/idmw_rss_66/js/pc_rss/common/base/jquery-1.12.4.min.js?cas20191101" type="text/javascript"></script>
+
+
+
+
+
+<script src="https://id5.cloud.huawei.com/CAS/up/idmw_rss_66/js/compress/_portal_includes_sdkAdapter.js?cas20191101" type="text/javascript"></script>
+
+</head>
+
+<body hwid-full-page style="height: 100%;" x-ms-format-detection="none">
+	<div class="topContent">
+		<!-- 头部  -->
+<div class="gray-customer-header">
+	<div class="head_center">
+			<div style="height: 100%;text-align: left;font-size: 0;"> <span style="height: 100%;vertical-align: middle;display: inline-block;"></span> <img src="https://id5.cloud.huawei.com/CAS/up/idmw_rss_66/logos/HUAWEI.svg" style="vertical-align: middle;margin-top:0;float: none;height: 24px;width:108px;"/> </div>
+	</div>	
+</div>
+
+
+		<div>
+			<!-- 广告位 -->
+			<span></span>
+		    <!-- sdk container -->
+		    <div class="hwidsdk_login_mudule"></div>
+	  	</div>
+  	</div>
+
+	<!-- 底部  -->
+
+
+<div class="customer-footer">
+	<div class="ft">
+		<!--授权  -->
+        <div class="warrant-area">
+            <p style="text-align: center;line-height:20px;height:20px;">
+			 
+				
+				
+					<a id="foot_EULA" href="https&#x3a;&#x2f;&#x2f;id5.cloud.huawei.com&#x2f;AMW&#x2f;portal&#x2f;agreements&#x2f;userAgreement&#x2f;es-us_userAgreement.html&#x3f;version&#x3d;hkservice&amp;countryCode&#x3d;co&amp;reqClientType&#x3d;27&amp;loginChannel&#x3d;27000000" class="rule" target="_blank">Contrato de usuario del ID de HUAWEI</a>
+					<em class="foot_em">|</em>
+					<a id="foot_privacy" href="https&#x3a;&#x2f;&#x2f;id5.cloud.huawei.com&#x2f;AMW&#x2f;portal&#x2f;agreements&#x2f;accPrivacyStatement&#x2f;es-us_accPrivacyStatement.html&#x3f;version&#x3d;hkservice&amp;reqClientType&#x3d;27&amp;loginChannel&#x3d;27000000" class="rule" target="_blank">Declaración acerca del ID de HUAWEI y la privacidad</a>
+				
+				
+			
+		
+			
+
+        		  <em class="foot_em">|</em>
+	              <a id="cookieBox" href="https&#x3a;&#x2f;&#x2f;id5.cloud.huawei.com&#x2f;AMW&#x2f;portal&#x2f;agreements&#x2f;cookie.html&#x3f;reqClientType&#x3d;27&amp;loginChannel&#x3d;27000000&amp;countryCode&#x3d;co&amp;loginUrl&#x3d;https&#x25;3A&#x25;2F&#x25;2Fid5.cloud.huawei.com&#x25;2FCAS&#x25;2Fportal&#x25;2Flogin.html&amp;lang&#x3d;es-us&amp;themeName&#x3d;red&amp;service&#x3d;https&#x25;3A&#x25;2F&#x25;2Fapi-sg.c.huawei.com&#x25;2Fcuepf&#x25;2Flogin&#x25;2Fcloudplatforms&#x25;3FsiteURL&#x25;3Dhttps&#x25;253A&#x25;252F&#x25;252Fapi-sg.c.huawei.com&#x25;252Fcuepf&#x25;252Fservices&#x25;252Fservice&#x25;252Fextuser&#x25;252Finfo&amp;version&#x3d;hkservice" class="rule" target="_blank">Cookies</a>        		    				
+
+           
+             
+            </p>
+            
+
+        	
+        		
+        			
+        			
+        				
+        			
+        		
+        	
+        	
+        </div>
+    </div>
+	
+
+	
+
+
+
+<div class="banner_box_empty" style="display: none;"></div>
+	
+<!-- banner -->
+<div id="bannerBox">
+	<div class="banner_box">
+		<span class="banner_text" >Este sitio web utiliza cookies para ofrecerle la mejor experiencia de navegación.
+			<a href="javascript:void(0)" class="rule" id="gotocookie" target="_blank">
+				Más información
+			</a>
+		</span>
+		<span id="banner_close_btn" class="banner_close"></span>
+	</div>
+</div>
+
+
+
+
+ 
+</div>
+
+
+
+
+	<div class="hwid-mask">
+		<div></div>
+	</div>
+
+  	<!-- import hwid sdk for register -->
+  	<script type="text/javascript" src="https&#x3a;&#x2f;&#x2f;id5.cloud.huawei.com&#x2f;CAS&#x2f;up&#x2f;idmw_rss_66&#x2f;js&#x2f;mobile_rss&#x2f;vuebuild&#x2f;static&#x2f;hwidJSSDKV1.0.js&#x3f;cas20191101"></script>
+	<script>
+	/**
+	   * business service config
+	   */
+	  var sdkConfig={
+	    /**
+	     * PageTokenKey is used to avoid CSRF
+	     * generated by business server
+	     */
+	    "pageTokenKey":"aacf00a40c9aa516254e163d10ac7ea13cf60c65ca6fcba5c4e464cf1ed81380",
+
+	    /**
+	     * PageToken is used to avoid CSRF
+	     * Token is generated by business server call IDMW getSDKBaseInfo interface with param PageTokenKey
+	     */
+	    "pageToken":"b95c59a3555405e33fab7d2d2223d8847d3d91113d0c92a6ee6205ccb6b213e3",
+
+	    /**
+	     * Hwid server config, generated by business server call IDMW getSDKBaseInfo interface
+	     * Notes: business can not change the content of it.
+	     */
+	    "hwidConfig": "%7B%22oauth2Version%22%3A%22cas20191101%22%2C%22reqClientType%22%3A%2227%22%2C%22loginChannel%22%3A%2227000000%22%2C%22lang%22%3A%22es-us%22%2C%22countryCode%22%3A%22co%22%2C%22service%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bapi-sg.c.huawei.com%26%23x2f%3Bcuepf%26%23x2f%3Blogin%26%23x2f%3Bcloudplatforms%26%23x3f%3BsiteURL%26%23x3d%3Bhttps%26%23x25%3B3A%26%23x25%3B2F%26%23x25%3B2Fapi-sg.c.huawei.com%26%23x25%3B2Fcuepf%26%23x25%3B2Fservices%26%23x25%3B2Fservice%26%23x25%3B2Fextuser%26%23x25%3B2Finfo%22%2C%22loginUrl%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BCAS%26%23x2f%3Bportal%26%23x2f%3Blogin.html%22%2C%22themeName%22%3A%22red%22%2C%22urlQurey%22%3A%22%26%23x3f%3BreqClientType%26%23x3d%3B27%26amp%3BloginChannel%26%23x3d%3B27000000%26amp%3BcountryCode%26%23x3d%3Bco%26amp%3BloginUrl%26%23x3d%3Bhttps%26%23x25%3B3A%26%23x25%3B2F%26%23x25%3B2Fid5.cloud.huawei.com%26%23x25%3B2FCAS%26%23x25%3B2Fportal%26%23x25%3B2Flogin.html%26amp%3Blang%26%23x3d%3Bes-us%26amp%3BthemeName%26%23x3d%3Bred%26amp%3Bservice%26%23x3d%3Bhttps%26%23x25%3B3A%26%23x25%3B2F%26%23x25%3B2Fapi-sg.c.huawei.com%26%23x25%3B2Fcuepf%26%23x25%3B2Flogin%26%23x25%3B2Fcloudplatforms%26%23x25%3B3FsiteURL%26%23x25%3B3Dhttps%26%23x25%3B253A%26%23x25%3B252F%26%23x25%3B252Fapi-sg.c.huawei.com%26%23x25%3B252Fcuepf%26%23x25%3B252Fservices%26%23x25%3B252Fservice%26%23x25%3B252Fextuser%26%23x25%3B252Finfo%22%2C%22brandID%22%3A0%2C%22browserLowVerTipPage%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BCAS%26%23x2f%3Bportal%26%23x2f%3BupdateBrowser.html%22%2C%22localHttps%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BCAS%22%2C%22localHttps_AMW%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%22%2C%22resourse_js_img_css_webUrl%22%3A%22https%3A%2F%2Fid5.cloud.huawei.com%2FCAS%2Fup%2Fidmw_rss_66%22%2C%22currentSiteID%22%3A%225%22%2C%22randomCodeImgURL%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BCAS%26%23x2f%3BauthCodeImage%22%2C%22displayCaptchaType%22%3A%221%22%2C%22geetestLoadingTimeOut%22%3A%2220000%22%2C%22ageLimit%22%3A%2216%22%2C%22isOpenCasPageStat%22%3A%22true%22%2C%22isOpenKPIStat%22%3A%22true%22%2C%22registerUrl%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BCAS%26%23x2f%3Bportal%26%23x2f%3BuserRegister%26%23x2f%3Bregbyemail.html%22%2C%22findPwdUrl%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%26%23x2f%3Bportal%26%23x2f%3BresetPwd%26%23x2f%3Bforgetbyid.html%22%2C%22faqUrl%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%26%23x2f%3Bportal%26%23x2f%3Bfaq%26%23x2f%3Bes-us_faq.html%26%23x3f%3Bversion%26%23x3d%3Bcommon%26amp%3BcountryCode%26%23x3d%3Bco%26amp%3Blang%26%23x3d%3Bes-us%26amp%3BreqClientType%26%23x3d%3B27%26amp%3BloginChannel%26%23x3d%3B27000000%22%2C%22appealUrl%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%26%23x2f%3Bportal%26%23x2f%3BappealSelf%26%23x2f%3BapplyChangeAccount.html%22%2C%22securityCenterUrl%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%26%23x2f%3Bportal%26%23x2f%3Bsecuritycenter%26%23x2f%3BsecurityCenter.html%22%2C%22isUsedDeviceFingerSite%22%3Afalse%2C%22carrierName%22%3A%22HUAWEI%22%2C%22carrierNameAccount%22%3A%22ID%26%23x20%3Bde%26%23x20%3BHUAWEI%22%2C%22EULAUrl%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%26%23x2f%3Bportal%26%23x2f%3Bagreements%26%23x2f%3BuserAgreement%26%23x2f%3Bes-us_userAgreement.html%26%23x3f%3Bversion%26%23x3d%3Bnull%26amp%3BcountryCode%26%23x3d%3Bco%26amp%3BreqClientType%26%23x3d%3B27%26amp%3BloginChannel%26%23x3d%3B27000000%22%2C%22hwAccountAndPrivacyNotice%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%26%23x2f%3Bportal%26%23x2f%3Bagreements%26%23x2f%3BaccPrivacyStatement%26%23x2f%3Bes-us_accPrivacyStatement.html%26%23x3f%3Bversion%26%23x3d%3Bhkservice%26amp%3BreqClientType%26%23x3d%3B27%26amp%3BloginChannel%26%23x3d%3B27000000%22%2C%22userPrivacyPolicyUrl%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%26%23x2f%3Bportal%26%23x2f%3Bagreements%26%23x2f%3BuserPrivacyPolicy%26%23x2f%3Bes-us_userPrivacyPolicy.html%26%23x3f%3BreqClientType%26%23x3d%3B27%26amp%3BloginChannel%26%23x3d%3B27000000%22%2C%22isSpecial%22%3Afalse%2C%22showCookie%22%3Atrue%2C%22cookieBannerExpires%22%3A%2230%22%2C%22cookieUrl%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%26%23x2f%3Bportal%26%23x2f%3Bagreements%26%23x2f%3Bcookie.html%26%23x3f%3Blang%26%23x3d%3Bes-us%26amp%3BcountryCode%26%23x3d%3Bco%26amp%3Bversion%26%23x3d%3Bhkservice%26amp%3BreqClientType%26%23x3d%3B27%26amp%3BloginChannel%26%23x3d%3B27000000%22%2C%22thirdLoginList%22%3A%22googleLogin_pc%26%23x7c%3BfaceBookLogin_pc%26%23x7c%3BtwitterLogin_pc%22%2C%22isOpenDimensionalCode%22%3A%22true%22%2C%22isOpenSMSLogin%22%3A%22true%22%2C%22isOpenApealSelf%22%3A%22true%22%2C%22representationLink%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%26%23x2f%3Bportal%26%23x2f%3BappealSelf%26%23x2f%3BapplyChangeAccount.html%26%23x3f%3BreqClientType%26%23x3d%3B27%26amp%3BloginChannel%26%23x3d%3B27000000%26amp%3BcountryCode%26%23x3d%3Bco%26amp%3BloginUrl%26%23x3d%3Bhttps%26%23x25%3B3A%26%23x25%3B2F%26%23x25%3B2Fid5.cloud.huawei.com%26%23x25%3B2FCAS%26%23x25%3B2Fportal%26%23x25%3B2Flogin.html%26amp%3Blang%26%23x3d%3Bes-us%26amp%3BthemeName%26%23x3d%3Bred%26amp%3Bservice%26%23x3d%3Bhttps%26%23x25%3B3A%26%23x25%3B2F%26%23x25%3B2Fapi-sg.c.huawei.com%26%23x25%3B2Fcuepf%26%23x25%3B2Flogin%26%23x25%3B2Fcloudplatforms%26%23x25%3B3FsiteURL%26%23x25%3B3Dhttps%26%23x25%3B253A%26%23x25%3B252F%26%23x25%3B252Fapi-sg.c.huawei.com%26%23x25%3B252Fcuepf%26%23x25%3B252Fservices%26%23x25%3B252Fservice%26%23x25%3B252Fextuser%26%23x25%3B252Finfo%26amp%3BrefererPage%26%23x3d%3Blogin%22%2C%22isOpenLocalCacheRisk%22%3A%22false%22%2C%22curSiteSupportSMSLoginSites%22%3A%221%2C7%2C8%2C5%22%2C%22getqrContent%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BDimensionalCode%26%23x2f%3BgetqrInfo%26%23x3f%3BappID%26%23x3d%3Bcom.huawei.hwidweb%26amp%3BloginChannel%26%23x3d%3B7000700%26amp%3BreqClientType%26%23x3d%3B700%26amp%3BconfirmFlag%26%23x3d%3B1%26amp%3Bversion%26%23x3d%3B40200%26amp%3BappBrand%26%23x3d%3BHUAWEI%22%2C%22asyncURL%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BDimensionalCode%26%23x2f%3Basync%26%23x3f%3Bversion%26%23x3d%3B40200%22%2C%22postRemoteLogin%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BCAS%26%23x2f%3BstRemoteLogin%22%2C%22qrcodeRequestInterval%22%3A2000%2C%22geetestOperType%22%3A%220%22%2C%22isOpenJsSdkComponentRemoteLogin%22%3Atrue%2C%22isOpenJsSdkDialogRemoteLogin%22%3Atrue%2C%22isOpenJsSdkPageRemoteLogin%22%3Afalse%2C%22secCodeAndSecondLoginFaqUrl%22%3A%22https%26%23x3a%3B%26%23x2f%3B%26%23x2f%3Bid5.cloud.huawei.com%26%23x2f%3BAMW%26%23x2f%3Bportal%26%23x2f%3Bfaq%26%23x2f%3Ben-us_secCodeAndSecondLoginFaq.html%26%23x3f%3BcountryCode%26%23x3d%3Bco%26amp%3Blang%26%23x3d%3Ben-us%26amp%3BreqClientType%26%23x3d%3B27%26amp%3BloginChannel%26%23x3d%3B27000000%22%2C%22showRegLinkInLoginPagesFlag%22%3Atrue%7D"
+	  };
+
+		/**
+		 * Business custom config
+		 */
+	    sdkConfig.businessConf = {
+			/**
+			 * Sdk login supports two types, "page" and "dialog".
+			 * Here use special type "fullPage"
+			 * "page" is the default type, looks like "$JSSDKDemo/WebContent/static/img/fixed.png"
+			 * "dialog" is the show type with dialog, looks like "$JSSDKDemo/WebContent/static/img/pop.png"
+			 * "fullPage" shows the whole page with left qrcode right account login
+			 */
+	        "showType": "fullPage",
+
+			/**
+			 * When sdk renders web interface completely, we will call this funciton which defined by business.
+			 * It is used for business custom event when web interface is rendered completely.
+			 * Class 'hwid-business-custom-content' dom is a reserved content for business
+			 */
+			"callbackFun": function () {
+				initCookieBanner();
+				htmlAutoSize();
+			},
+
+			/**
+			 * When page is updated, we need to update the page size again.
+			 */
+			"pageUpdatedFun": function () {
+				htmlAutoSize();
+			}
+	    };
+
+	    /**
+	     * When business call init interface, we will load the dependence resource and render the web interface.
+	     */
+	    hwidSDK.init(sdkConfig);
+	</script>
+</body>
+</html>

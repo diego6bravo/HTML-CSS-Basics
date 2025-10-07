@@ -1,0 +1,133 @@
+@-ms-viewport {
+        width: device-width;
+  }
+
+audio {
+    display: inline;
+    position: relative;
+    padding: 25px;
+    margin: 0 auto;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    background: #222431;
+    font-family: "Roboto Slab", serif;
+    font-size: 9px;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=10);
+    opacity: 9;
+
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    transition: all .7s ease;
+  
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 40px;
+ 
+    -webkit-box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+    -moz-box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+    box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+
+    background-color: blueviolet;
+
+  }
+
+  section {
+    padding: 25px;
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    align-items: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=10);
+    opacity: 0.8;
+    color: rgb(82, 82, 82);
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    transition: all .7s ease;
+  
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 40px;
+ 
+    -webkit-box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+    -moz-box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+    box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+  }
+
+  p {
+    
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: rgb(37, 74, 99);
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=10);
+    opacity: 0.9;
+
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    transition: all .7s ease;
+  
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 40px;
+ 
+    -webkit-box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+    -moz-box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+    box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+
+  }
+
+  #subtitulo {
+    
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: rgb(193, 208, 218);
+    font-size: 19px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=10);
+    opacity: 0.9;
+
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    transition: all .7s ease;
+  
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 40px;
+ 
+    -webkit-box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+    -moz-box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+    box-shadow: 0px 0px 13px rgba(0,0,0,.3),inset 0 1px 0px rgba(255,255,255,.2);
+
+  }

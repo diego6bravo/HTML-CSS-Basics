@@ -1,0 +1,13 @@
+			@font-face {
+				font-family: 'blue-highway';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/180615073054Blue-Highway.eot');
+				src: local('blue-highway'), url('/wp-content/uploads/useanyfont/180615073054Blue-Highway.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/180615073054Blue-Highway.woff') format('woff');
+			}
+            
+            .blue-highway{font-family: 'blue-highway' !important;}
+            
+						body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
+					font-family: 'blue-highway' !important;
+				}
+		

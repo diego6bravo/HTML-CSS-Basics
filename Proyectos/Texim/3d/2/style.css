@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+  background-color: white;
+}
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  transform-style: preserve-3d;
+  min-height: 80vh;
+  width: 35rem;
+  border-radius: 30px;
+  padding: 0rem 5rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.sneaker {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sneaker img {
+  width: 20rem;
+  z-index: 2;
+  transition: all 0.75s ease-out;
+}
+.circle {
+  width: 15rem;
+  height: 15rem;
+  background: linear-gradient(
+    to right,
+    rgba(240, 214, 248, 0.75),
+    rgba(135, 138, 167, 0.75)
+  );
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.info h1 {
+  font-size: 3rem;
+  transition: all 0.75s ease-out;
+}
+.info h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0rem;
+  color: #585858;
+  font-weight: lighter;
+  transition: all 0.75s ease-out;
+}
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.75s ease-out;
+}
+.sizes button {
+  padding: 0.5rem 1.5rem;
+  background: rgba(102,150,178,1);
+background: -moz-linear-gradient(top, rgba(102,150,178,1) 0%, rgba(81,126,148,1) 48%, rgba(82,136,163,1) 51%, rgba(86,138,164,1) 71%, rgba(92,142,163,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(102,150,178,1)), color-stop(48%, rgba(81,126,148,1)), color-stop(51%, rgba(82,136,163,1)), color-stop(71%, rgba(86,138,164,1)), color-stop(100%, rgba(92,142,163,1)));
+background: -webkit-linear-gradient(top, rgba(102,150,178,1) 0%, rgba(81,126,148,1) 48%, rgba(82,136,163,1) 51%, rgba(86,138,164,1) 71%, rgba(92,142,163,1) 100%);
+background: -o-linear-gradient(top, rgba(102,150,178,1) 0%, rgba(81,126,148,1) 48%, rgba(82,136,163,1) 51%, rgba(86,138,164,1) 71%, rgba(92,142,163,1) 100%);
+background: -ms-linear-gradient(top, rgba(102,150,178,1) 0%, rgba(81,126,148,1) 48%, rgba(82,136,163,1) 51%, rgba(86,138,164,1) 71%, rgba(92,142,163,1) 100%);
+background: linear-gradient(to bottom, rgba(102,150,178,1) 0%, rgba(81,126,148,1) 48%, rgba(82,136,163,1) 51%, rgba(86,138,164,1) 71%, rgba(92,142,163,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6696b2', endColorstr='#5c8ea3', GradientType=0 );
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+button.active {
+  background: #585858;
+  color: white;
+}
+button.active:hover {
+  background: #585858;
+  color: white;
+}
+button:hover {
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(222,232,237,1) 48%, rgba(241,246,248,1) 51%, rgba(248,250,251,1) 71%, rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(48%, rgba(222,232,237,1)), color-stop(51%, rgba(241,246,248,1)), color-stop(71%, rgba(248,250,251,1)), color-stop(100%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(222,232,237,1) 48%, rgba(241,246,248,1) 51%, rgba(248,250,251,1) 71%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(222,232,237,1) 48%, rgba(241,246,248,1) 51%, rgba(248,250,251,1) 71%, rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(222,232,237,1) 48%, rgba(241,246,248,1) 51%, rgba(248,250,251,1) 71%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(222,232,237,1) 48%, rgba(241,246,248,1) 51%, rgba(248,250,251,1) 71%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  color:slategray;
+}
+.purchase {
+  margin: 3rem 0;
+  transition: all 0.75s ease-out;
+}
+.purchase button {
+  width: 100%;
+  padding: 1rem 1rem 1rem 1rem;
+  background: #f54642;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bolder;
+}
+.purchase button:hover {
+  background: rgba(250,42,0,1);
+  background: -moz-linear-gradient(top, rgba(250,42,0,1) 0%, rgba(246,66,35,1) 43%, rgba(219,29,0,1) 51%, rgba(220,33,4,1) 71%, rgba(215,35,15,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,42,0,1)), color-stop(43%, rgba(246,66,35,1)), color-stop(51%, rgba(219,29,0,1)), color-stop(71%, rgba(220,33,4,1)), color-stop(100%, rgba(215,35,15,1)));
+  background: -webkit-linear-gradient(top, rgba(250,42,0,1) 0%, rgba(246,66,35,1) 43%, rgba(219,29,0,1) 51%, rgba(220,33,4,1) 71%, rgba(215,35,15,1) 100%);
+  background: -o-linear-gradient(top, rgba(250,42,0,1) 0%, rgba(246,66,35,1) 43%, rgba(219,29,0,1) 51%, rgba(220,33,4,1) 71%, rgba(215,35,15,1) 100%);
+  background: -ms-linear-gradient(top, rgba(250,42,0,1) 0%, rgba(246,66,35,1) 43%, rgba(219,29,0,1) 51%, rgba(220,33,4,1) 71%, rgba(215,35,15,1) 100%);
+  background: linear-gradient(to bottom, rgba(250,42,0,1) 0%, rgba(246,66,35,1) 43%, rgba(219,29,0,1) 51%, rgba(220,33,4,1) 71%, rgba(215,35,15,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa2a00', endColorstr='#d7230f', GradientType=0 );
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  color: rgb(255, 238, 221);
+}
+
+
+@media screen and (max-width:400px) {
+  .info h1 {
+    font-size: 2.2rem;
+  }
+  .card {
+    width: 20rem;
+  }
+  .sizes button {
+    padding: 1.1rem 2rem;
+    flex-wrap: wrap;
+  }
+  .sizes {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width:401px) and (max-width:530px) {
+  .info h1 {
+    font-size: 2.2rem;
+  }
+
+  .info h3 {
+    padding: 1rem 0rem;
+  }
+  
+  .card {
+    width: 25rem;
+    padding: 0rem 2rem;
+  }
+  .sizes button {
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    font-size: 0.7rem; 
+  }
+  
+}
+

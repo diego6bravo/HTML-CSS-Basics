@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./diegogb/jquery.js"></script>
+ 
+    <style>
+
+/* PopUp */
+
+.popup3 {
+    background-color: #ffffff;
+    color: #888888;
+    height: 550px;
+    left: 100%;
+    padding: 20px;
+    position: fixed;
+    right: 30%;
+    top: 25%;
+    width: 650px;
+    z-index: 101;
+	border:5px solid #888888;
+	-moz-box-shadow: 0px 0px 10px 1px #888888;
+	-webkit-box-shadow: 0px 0px 10px 1px #888888;
+	box-shadow: 0px 0px 10px 1px #888888;
+	border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+.overlay3 {
+    background: #000000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+	opacity:0.5;
+}
+
+a.close3 {
+    background: url("../diegogb/img/cancel.png") repeat scroll left top transparent;
+    cursor: pointer;
+    float: right;
+    height: 26px;
+    left: 32px;
+    position: relative;
+    top: -33px;
+    width: 26px;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+	  .popup3 {
+		  width: 200px;
+		  height: auto;
+          left: 19%;
+	  }
+	  .overlay3 {
+		  width: 500px;
+		  height: auto;
+	  }  
+       
+}
+
+
+@media screen and (min-width:1601px) and (max-width:1920px) {
+    .popup3 {
+		  width: auto;
+		  height: auto;
+	  }
+	  .overlay3 {
+		  width: auto;
+		  height: auto;
+	  }  
+      
+}
+
+
+
+
+    </style>
+    <title>TiendaPopUP</title>
+
+    <script type="text/javascript">
+        function openDialog() {
+            $('#overlay3').fadeIn('fast', function() {
+                $('#popup3').css('display','block');
+                $('#popup3').animate({'left':'19%'},500);
+            });
+        }
+        
+        function closeDialog(id) {
+            $('#'+id).css('position','absolute');
+            $('#'+id).animate({'left':'-100%'}, 500, function() {
+                $('#'+id).css('position','fixed');
+                $('#'+id).css('left','100%');
+                $('#overlay3').fadeOut('fast');
+            });
+        }
+        </script>
+
+
+
+</head>
+<body onload="openDialog();">
+   
+            <div id="content">
+            <div id="overlay3" class="overlay3" style="display: block;"></div>
+            <div id="popup3" class="popup3" style="display: block;  top:10%; position: fixed;">
+                <a onclick="closeDialog(&#39;popup3&#39;);" class="close3"></a>
+                <div>
+                            <iframe src="popuptienda.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden;height:620px;width:100%;" allowtransparency="true"></iframe>
+                        </div>
+                </div>
+                </div>
+
+                <iframe src="https://tienda.texim-ltd.com" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" frameborder="0"></iframe>
+
+</body>
+</html>
